@@ -1,0 +1,325 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>我的网站</title>
+    <link rel="stylesheet" type="text/css" href="css/css.css">
+    <style>
+        body,
+        html,
+        div,
+        blockquote,
+        img,
+        label,
+        p,
+        h1,
+        h2,
+        h3,
+        ul,
+        li,
+        a {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            outline: none;
+        }
+        
+        body {
+            width: 1000px;
+            margin: 0 auto;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+        
+        a {
+            color: #000000;
+        }
+        
+        A:link {
+            TEXT-DECORATION: none;
+        }
+        
+        A:visited {
+            TEXT-DECORATION: none;
+        }
+        
+        ul,
+        li {
+            list-style-type: none;
+        }
+        
+        .clearit {
+            clear: both;
+        }
+        
+        .banner img {
+            width: 100%;
+        }
+        
+        .nav {
+            width: 100%;
+            height: 45px;
+            background: #333;
+            margin-top: -4px;
+        }
+        
+        .nav li {
+            width: 200px;
+            float: left;
+            text-align: center;
+        }
+        
+        .nav li a {
+            display: block;
+            color: #FFF;
+            line-height: 45px;
+        }
+        
+        .nav li a:hover {
+            background: #666;
+        }
+        
+        .nav li a.active {
+            background: #666
+        }
+        
+        .main {
+            background: #e9e7e6;
+            padding: 12px;
+        }
+        
+        .left {
+            width: 550px;
+            float: left;
+            margin-top: 10px;
+        }
+        
+        .left p {
+            font-size: 14px;
+            line-height: 24px;
+            padding: 6px 0 0 0;
+        }
+        
+        .left img {
+            margin-top: 10px;
+        }
+        
+        h3 {
+            border-bottom: 2px solid #666;
+            text-align: center;
+            padding-bottom: 6px;
+        }
+        
+        .right {
+            width: 400px;
+            float: right;
+            margin-top: 10px;
+        }
+        
+        .right p {
+            font-size: 18px;
+            line-height: 27px;
+            text-indent: 2em;
+            padding: 10px 0 0 0;
+        }
+        
+        .tc {
+            width: 100%;
+            overflow: hidden;
+            padding: 10px 0;
+            background: #666;
+            margin: 20px 0 10px 0;
+        }
+        
+        .tc h2 {
+            font-size: 17px;
+            color: #FFF;
+            padding: 0 14px;
+        }
+        
+        .foot {
+            width: 100%;
+            overflow: hidden;
+            background: #333;
+            text-align: center;
+            line-height: 50px;
+            color: #FFF;
+            font-size: 14px;
+        }
+        
+        .wh {
+            width: 100%;
+            overflow: hidden;
+            padding: 10px 0;
+        }
+        
+        .wh p {
+            font-size: 14px;
+            line-height: 24px;
+            text-indent: 2em;
+            padding: 10px 0 0 0;
+        }
+        
+        .pic img {
+            width: 310px;
+            height: 211px;
+            margin-left: 4px;
+            margin-right: 8px;
+            margin-top: 10px;
+            border: 1px solid #551d0e;
+        }
+        
+        .fl {
+            width: 100%;
+            overflow: hidden;
+            text-align: center;
+            padding: 10px 0;
+        }
+        
+        .fl span {
+            width: 460px;
+            margin: 20px 10px;
+            display: inline-block;
+            overflow: hidden;
+        }
+        
+        .fl span img {
+            width: 100%;
+            height: 313px;
+        }
+        
+        .fl span h4 {
+            margin: 10px 0 !important;
+        }
+        
+        .fl span p {
+            text-align: left;
+            font-size: 14px;
+            line-height: 24px;
+        }
+        
+        .fl span a {
+            display: block;
+            line-height: 44px;
+            background: #eccebf;
+            color: #c25419;
+            font-size: 14px;
+            margin-top: 22px;
+        }
+        
+        .fl span a:hover {
+            background: #551d0e;
+            color: #feb528;
+        }
+        
+        .fl h5 {
+            width: 200px;
+            height: 45px;
+            text-align: center;
+            background: #551d0e;
+            color: #feb528;
+            font-size: 16px;
+            line-height: 45px;
+        }
+        
+        .fl li {
+            width: 310px;
+            float: left;
+            margin-left: 20px;
+        }
+        
+        .fl li img {
+            height: 223px;
+            margin-bottom: 8px;
+        }
+        
+        .fl li p {
+            text-align: left;
+            font-size: 14px;
+            line-height: 24px;
+        }
+        
+        .fl li b {
+            font-size: 16px;
+        }
+        
+        .fl li samp {
+            color: #333;
+        }
+        
+        body {
+            background: url(images/1.jpg) no-repeat;
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <audio src="audio/刘至佳 - 一万次悲伤.mp3" autoplay></audio>
+    <div class="banner"><img src="images/壁纸.jpg"></div>
+    <div class="nav">
+        <ul>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="index2.html">我的相册</a></li>
+            <li><a href="index3.html">我的视频</a></li>
+        </ul>
+    </div>
+    <div class="main">
+        <div class="left">
+            <h3>哈喽！！！</h3>
+            <img src="images/2.png" width="100%">
+        </div>
+        <div class="right">
+            <h3>个人介绍</h3>
+            <p><img src="images/8.jpg" width="200" align="right" style="padding:4px; border:3px solid #c99e8e; margin:6px 0 6px 10px;"></p>
+            <p>个人介绍：本人思想积极上进，性格开朗，生活作风严谨，责任心强，办事沉稳、执着，能吃苦耐劳，适应性强，具有良好的心理素质。本人积极要求上进，热爱祖国，拥护中国共产党，积极向党的组织靠拢，向我们伟大的中国共产党看齐。本人还坚持党的四项基本原则和改革开放政策、关心国家和社会的大事，具有很强的爱国主义精神</p>
+            <p>本人性格开朗、踏实、稳重、有活力，待人热情、真诚。喜欢在空余的时间看书和听音乐，从中减轻平时学习中带来的压力，还可以学到书本中学不到的识，开拓自己的眼界、积极井不断进取是我做事的原则，谦虚和谨值是我的优点，懂得不断从生活和学习中提高和完善自己、为人诚实，有良好的人际交往能力，具备相关的专业知识和认证细心的做事态度。</p>
+        </div>
+        <div class="clearit"></div>
+        <div class="tc">
+            <h2>很高兴认识大家！！！</h2>
+        </div>
+        <div id=demo style="overflow:hidden;width:976px;">
+            <table border=0 align=left cellpadding=0 cellspacing="0" cellspace=0>
+                <tr>
+                    <td valign=top id=demo1>
+                        <table width="976" border="0" cellspacing="5" cellpadding="0">
+                            <tr>
+                                <td>
+                                    <a href="#"><img src="images/4.jpg" height="280" border="0" style="margin-left:15px;"></a>
+                                </td>
+                                <td>
+                                    <a href="#"><img src="images/5.jpg" height="280" border="0" style="margin-left:15px;"></a>
+                                </td>
+                                <td>
+                                    <a href="#"><img src="images/6.jpg" height="280" border="0" style="margin-left:15px;"></a>
+                                </td>
+                                <td>
+                                    <a href="#"><img src="images/7.jpg" height="280" border="0" style="margin-left:15px;"></a>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td id=demo2 valign=top></td>
+                </tr>
+            </table>
+        </div>
+        <script>
+            var speed = 0.5
+            demo2.innerHTML = demo1.innerHTML
+
+            function Marquee() {
+                if (demo2.offsetWidth - demo.scrollLeft <= 0)
+                    demo.scrollLeft -= demo1.offsetWidth
+                else {
+                    demo.scrollLeft++
+                }
+            }
+            var MyMar = setInterval(Marquee, speed)
+        </script>
+    </div>
+    <div class="foot">我的网站</div>
+</body>
+
+</html>
